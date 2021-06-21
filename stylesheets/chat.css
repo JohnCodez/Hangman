@@ -1,0 +1,30 @@
+#chat {
+    position: absolute;
+    top: 55%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: black solid 2px;
+    height: 32.5rem;
+    width: 16rem;
+}
+
+#chatbox {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 15.8rem;
+    height: 2rem;
+    font-size: 16px;
+    border-radius: 0;
+    border: 0;
+    outline: none;
+    background-color: rgb(218, 218, 218);
+    border-top: black solid 2px;
+}
+
+#chat-log {
+    position: absolute;
+    width: 16rem;
+    height: 31rem;
+}

@@ -1,0 +1,38 @@
+#main {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: black solid 2px;
+    height: 32.5rem;
+    width: 32.5rem;
+}
+
+#hangman {
+    position: relative;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+#word {
+    position: relative;
+    top: 28%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+#play-again {
+    position: relative;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    cursor: pointer;
+    width: 6rem;
+    border: 0;
+    margin: 0;
+}

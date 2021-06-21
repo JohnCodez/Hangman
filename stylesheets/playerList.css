@@ -1,0 +1,16 @@
+#players {
+    position: absolute;
+    top: 41%;
+    left: 21.5%;
+    transform: translate(-50%, -50%);
+    border: 2px black solid;
+    background-color: white;
+    width: 15rem;
+    height: 20rem;
+}
+
+#player-list {
+    position: absolute;
+    top: 1rem;
+    list-style: none;
+}
