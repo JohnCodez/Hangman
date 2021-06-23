@@ -1,5 +1,5 @@
 # Hangman
-This is a side project, test it while I build it here
+This is a side project still in very early developement, test it while I build it here
 https://hangman-ripoff.netlify.app/
 
 # Versions
