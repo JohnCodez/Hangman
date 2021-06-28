@@ -4,12 +4,15 @@ https://hangman-ripoff.netlify.app/
 
 # Versions
 
+## v0.31
+- If word is blank, warning is given
+
 ## v0.3
 - Doesn't allow spaces in word and gives warning
 - If word exceeds max 10 or has spaces, warning will be shown
 
 ## v0.2
-- Version name correction <br/>
+- Version name correction
 - Added chat History
 
 ## v0.1

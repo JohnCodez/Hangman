@@ -24,7 +24,10 @@ function setup() {
             chatBox.disabled = ''
             chatBox.placeholder = 'Guess'
             playAgain.hidden = 'hidden'
-        } else {
+        } else if (e.target.children[0].value.length === 0) { 
+            enterWord.value = ''
+            enterWord.placeholder = 'Can\'t be Blank'
+        }else {
             enterWord.value = ''
             enterWord.placeholder = '10 letters MAX'
         }
