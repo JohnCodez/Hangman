@@ -8,7 +8,11 @@ function setup() {
     enterWord.autocomplete = 'off'
     enterWordForm.addEventListener('submit', (e) => {
         e.preventDefault()
-        if (e.target.children[0].value.length < 11 && e.target.children[0].value.length > 0) {
+        if (e.target.children[0].value.indexOf(' ') >= 0) {
+            enterWord.value = ''
+            enterWord.placeholder = 'Cannot Include Space'
+
+        } else if (e.target.children[0].value.length < 11 && e.target.children[0].value.length > 0) {
             let newWord = []
             e.target.children[0].value.split('').forEach(letter => {
                 newWord.push('_')
@@ -20,6 +24,9 @@ function setup() {
             chatBox.disabled = ''
             chatBox.placeholder = 'Guess'
             playAgain.hidden = 'hidden'
+        } else {
+            enterWord.value = ''
+            enterWord.placeholder = '10 letters MAX'
         }
         
     })
