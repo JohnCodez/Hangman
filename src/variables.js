@@ -15,3 +15,5 @@ let three = document.getElementById('3')
 let four = document.getElementById('4')
 let five = document.getElementById('5')
 let six = document.getElementById('6')
+
+let guessedLetters = []

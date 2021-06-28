@@ -18,5 +18,8 @@ function fresh() {
     div5.id = '5'
     div6.id = '6'
     hangman.append(div1, div2, div3, div4, div5, div6)
+
+    chatLog.innerHTML = ''
+    guessedLetters = []
 }
 

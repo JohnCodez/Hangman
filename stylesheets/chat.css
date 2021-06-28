@@ -21,10 +21,23 @@
     outline: none;
     background-color: rgb(218, 218, 218);
     border-top: black solid 2px;
+    text-overflow: clip;
+}
+
+#chat-log, #chat-log li {
+    transform: scaleY(-1);
+    margin: 0;
+    padding: 0;
 }
 
 #chat-log {
     position: absolute;
-    width: 16rem;
-    height: 31rem;
+    width: 13.5rem;
+    height: 29.5rem;
+    list-style: none;
+    vertical-align: bottom;
+}
+
+#chat-log li {
+    margin-left: 1rem;
 }
