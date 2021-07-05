@@ -8,14 +8,18 @@ function setup() {
     enterWord.autocomplete = 'off'
     enterWordForm.addEventListener('submit', (e) => {
         e.preventDefault()
-        if (e.target.children[0].value.indexOf(' ') >= 0) {
+        if (!wordValid(e.target.children[0].value)){
             enterWord.value = ''
-            enterWord.placeholder = 'Cannot Include Space'
-
+            enterWord.placeholder = 'Invalid Character(s)'
         } else if (e.target.children[0].value.length < 11 && e.target.children[0].value.length > 0) {
             let newWord = []
             e.target.children[0].value.split('').forEach(letter => {
-                newWord.push('_')
+                console.log(letter)
+                if (letter === ' '){
+                    newWord.push('&nbsp')
+                } else {
+                    newWord.push('_')
+                } 
             })
             secretWordStored = e.target.children[0].value.toLowerCase().split('')
             secretWord = newWord

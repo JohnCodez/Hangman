@@ -21,7 +21,6 @@
     outline: none;
     background-color: rgb(218, 218, 218);
     border-top: black solid 2px;
-    text-overflow: clip;
 }
 
 #chat-log, #chat-log li {

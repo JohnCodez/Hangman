@@ -12,14 +12,14 @@
 #hangman {
     position: relative;
     top: 40%;
-    left: 80%;
+    left: 40%;
     transform: translate(-50%, -50%);
     font-size: 40px;
 }
 
 #word {
     position: relative;
-    top: 28%;
+    top: 10%;
     left: 80%;
     transform: translate(-50%, -50%);
     font-size: 40px;
@@ -27,7 +27,7 @@
 
 #play-again {
     position: relative;
-    top: 30%;
+    top: 12%;
     left: 45%;
     transform: translate(-50%, -50%);
     font-size: 20px;

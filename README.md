@@ -4,6 +4,12 @@ https://hangman-ripoff.netlify.app/
 
 # Versions
 
+## v0.4 
+- Images added in place of text hook and man
+- For word set and chat guesses, any characters other than alphabetic are invalid
+- Spaces are now fully supported when setting a word, unless the word entered is just a space
+- Overflowing chat fixed
+
 ## v0.31
 - If word is blank, warning is given
 

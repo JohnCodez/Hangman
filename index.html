@@ -10,21 +10,22 @@
     <link rel='stylesheet' href='./stylesheets/chat.css' />
     <link rel='stylesheet' href='./stylesheets/playerList.css' />
     <script src='./src/variables.js' defer></script>
-    <script src='./src/fresh.js' defer></script>
-    <script src='./src/start.js' defer></script>
-    <script src='./src/chat.js' defer></script>
+    <script src='./src/chat/wordValid.js' defer></script>
+    <script src='./src/state/fresh.js' defer></script>
+    <script src='./src/state/start.js' defer></script>
+    <script src='./src/chat/cleanChat.js' defer></script>
+    <script src='./src/chat/chat.js' defer></script>
+    <script src='./src/chat/guessSwitch.js' defer></script>
 </head>
 <body>
     <h1 id='title'>Hangman Ripoff</h1>
     <div id='players'>
         <ul id='player-list'>
             <li>Player 1</li>
-            <li>Player 2</li>
-            <li>Player 3</li>
         </ul>
     </div>
     <div id='main'>
-        <div id='hangman'></div>
+        <img id='hangman' src="./hook_images/blank_hook.png" alt="" >
         <div id='word'></div>
         <h4 id='play-again' hidden='hidden'>Play Again</h4>
     </div>
